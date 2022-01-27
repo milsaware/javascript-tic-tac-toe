@@ -1,0 +1,92 @@
+html, body{
+    font-family: arial;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#board{
+    text-align:center;
+    width: 466px;
+    position: absolute;
+    left: calc(50% - 338px);
+    top: 35px;
+}
+
+.box{
+    border: 1px solid;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.check{
+    font-size: 130px;
+    text-align: center;
+}
+
+#resetBtn{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: green;
+    width: 100px;
+    position: absolute;
+    left: calc(50% - 65px);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 3px 3px lightgrey;
+    transition: .3s;
+}
+
+#resetBtn:active{
+    margin-top: 12px;
+    left: calc(50% - 63px);
+    box-shadow: 1px 1px lightgrey;
+}
+
+#notification{
+    position: absolute;
+    text-align: center;
+    top: 560px;
+    font-size: 50px;
+    margin-right: 209px;
+}
+
+#score_board{
+    border: 1px solid;
+    width: 200px;
+    height: 453px;
+    top: 35px;
+    margin-left: 467px;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+}
+
+#sbhead{
+    padding: 7px 0;
+    font-size: 20px;
+    border-bottom: 1px solid;
+}
+
+.score_block{
+    border-bottom: 1px solid;
+    height: calc(50% - 10px);
+}
+
+.sblhead{
+    padding: 5px;
+    border: 1px solid;
+    font-size: 32px;
+}
+
+.sblbody{
+    font-size: 114px;
+}
