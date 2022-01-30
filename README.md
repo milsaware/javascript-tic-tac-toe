@@ -1,4 +1,4 @@
-# javascript-tic-tac-toe
+# Javascript Tic Tac Toe
 
 **No installation required**
 
